@@ -2,7 +2,7 @@
 
 This is a `dockerfile` to build a Docker image based on Ollama's official image, but with Llama 3.2 model pre-installed and ready to serve.
 
-The scripts in the image were desinged to be easily used with RunPod's [Serverless Endpoint](https://docs.runpod.io/serverless/endpoints/overview).
+The scripts in the image (`start.sh`, `runpod_wrapper.py`) were designed to be easily used with RunPod's [Serverless Endpoint](https://docs.runpod.io/serverless/endpoints/overview).
 
 Also included in the repo are Python scripts to confirm that the Runpod Endpoint is working as expected:
 
